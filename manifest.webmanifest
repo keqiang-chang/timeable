@@ -1,7 +1,7 @@
 {
-  "name": "我的课表 · 武汉大学 2026-2027 第一学期",
+  "name": "我的课表 · 法学助手",
   "short_name": "我的课表",
-  "description": "武汉大学 2026-2027 学年第一学期课表：周视图、按天视图、今天的课、课前提醒、日历导出，完全离线可用。",
+  "description": "课表 + AI 法学助手 + 每日案例与法律英语。武汉大学 2026-2027 学年第一学期。",
   "lang": "zh-CN",
   "dir": "ltr",
   "start_url": "./",
@@ -13,6 +13,10 @@
   "background_color": "#f4f6f9",
   "theme_color": "#2f6feb",
   "categories": ["education", "productivity"],
+  "shortcuts": [
+    { "name": "AI 助手", "url": "./?tab=ai" },
+    { "name": "每日学习", "url": "./?tab=daily" }
+  ],
   "icons": [
     {
       "src": "icons/icon-192.png",
